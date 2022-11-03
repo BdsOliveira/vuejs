@@ -1,6 +1,11 @@
 new Vue({
     el: '#desafio',
     data: {
-        valor: ''
+        valor: '',
+    },
+    methods: {
+        exibeAlerta(){
+            alert("Alerta exibido com sucesso.");
+        }
     }
 })
